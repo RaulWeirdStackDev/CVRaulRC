@@ -76,7 +76,7 @@ nav img {border-radius: 50px;}
     flex-direction: column; 
         flex-grow: 1;}
 
-footer {position: relative; bottom: 0; width: 100%;
+footer {position: absolute; bottom:0; width: 100%;
     background-color: #1cb9e4; 
     background-image: linear-gradient(to right top, #1cb9e4, #c4d3dd);}
     .contenedor2 {
@@ -84,3 +84,16 @@ footer {position: relative; bottom: 0; width: 100%;
         justify-content: space-evenly; 
         width: 100%; 
         max-width: 800px; }
+.descMov{display: none;}
+
+
+@media(max-width:576px){
+    footer{position: relative ; bottom: auto; text-align: center;}
+    .características{display: none;}
+    .main {overflow: auto;}
+    .descripción img{display: none;}
+    .descripción{max-width: 90vw;}
+    .descripción p{display: none;}
+    .descMov{display: flex; max-width: 100vw; text-align: center; align-items: center; font-size: 14px;}
+    .experiencia{display: grid; grid-column: auto; }
+}
