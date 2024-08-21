@@ -66,6 +66,10 @@ nav img {
   background-image: linear-gradient(to right top, #c4d3dd, #8addf4);
 }
 
+.descripción img { height: 250px; width: auto;
+  margin-block: 50px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
