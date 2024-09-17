@@ -88,5 +88,23 @@
     </div>
 </div>
 </footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var path = window.location.pathname;
+      var page = path.split("/").pop();
+
+      var navLinks = document.querySelectorAll(".nav-link");
+
+      navLinks.forEach(function (link) {
+        link.classList.remove("active");
+      });
+
+      navLinks.forEach(function (link) {
+        if (link.getAttribute("href").includes(page)) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
 </body>
 </html>

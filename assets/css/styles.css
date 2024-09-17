@@ -88,7 +88,7 @@ nav img {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #1cb9e4;
