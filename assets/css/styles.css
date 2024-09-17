@@ -105,6 +105,7 @@ footer {
 }
 
 @media (max-width: 576px) {
+  body{max-width: 100%;}
   footer {
     position: relative;
     bottom: auto;
