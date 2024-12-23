@@ -73,26 +73,8 @@ nav img {
   background-image: linear-gradient(to right top, #c4d3dd, #8addf4);
 }
 
-.descripción img { height: 200px; width: auto; max-height: 200px; 
-  margin-block: 50px;
-}
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.card img {
-  max-width: 100%;
-  max-height: 200px;
-  object-fit: contain;
-}
-.card-body {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
+
 
 footer {
   position: relative;
@@ -107,9 +89,7 @@ footer {
   width: 100%;
   max-width: 800px;
 }
-.descMov {
-  display: none;
-}
+
 .cvDescargable{display: flex; justify-content: center; align-items: center; padding: 10px; background-color: #1cb9e4; margin-inline: 40vw; margin-top: 10px; text-align: center;}
 .cvDescargable a{text-decoration: none;color: black;}
 
